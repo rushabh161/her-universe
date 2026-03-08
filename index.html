@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Her Universe</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<!-- MUSIC BUTTON -->
+
+<button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+<audio id="bgMusic" loop>
+<source src="music/Bairan  Animated Love Story  Banjaare (Official Video).mp3" type="audio/mpeg">
+</audio>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>Happy Women's Day 🌸</h1>
+
+<p id="typewriter"></p>
+
+<a href="#intro" class="enter-btn">Enter Your World ✨</a>
+
+</section>
+
+
+<!-- INTRO -->
+
+<section id="intro" class="intro">
+
+<img src="photos/pic5.jpeg" class="hero-photo">
+
+<h2>Some people are beautiful.</h2>
+<h2>Some people are special.</h2>
+<h2>And then there is <span class="highlight">You</span>.</h2>
+
+<p>The woman who makes ordinary days magical.</p>
+
+</section>
+
+
+<!-- PHOTO WALL -->
+
+<section class="gallery">
+
+<h2>Moments of You 📸</h2>
+
+<div class="photo-grid">
+
+<div class="photo">
+<img src="photos/pic4.jpeg">
+<span>This smile could fix my worst day.</span>
+</div>
+
+<div class="photo">
+<img src="photos/pic1.jpeg">
+<span>If happiness had a face, it would look like this.</span>
+</div>
+
+<div class="photo">
+<img src="photos/pic2.jpeg">
+<span>The world gets brighter when you laugh.</span>
+</div>
+
+<div class="photo">
+<img src="photos/pic3.jpeg">
+<span>Proof that magic exists.</span>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- COMPLIMENT GENERATOR -->
+
+<section class="compliment-section">
+
+<h2>Click for a Compliment 😌</h2>
+
+<button onclick="generateCompliment()">Tell Me</button>
+
+<p id="compliment"></p>
+
+</section>
+
+
+<!-- WOMEN DAY MESSAGE -->
+
+<section class="tribute">
+
+<h2>Today the world celebrates women.</h2>
+
+<h2>But today I celebrate <span class="highlight">You</span>.</h2>
+
+<p>Not because it’s Women's Day…  
+but because you deserve appreciation every day.</p>
+
+</section>
+
+
+<!-- SECRET ENDING -->
+
+<section class="secret">
+
+<button onclick="revealSecret()">One Last Thing...</button>
+
+<div id="secretMessage">
+
+<h2>Out of billions of people in this world...</h2>
+
+<h2>I’m really glad it's <span class="highlight">You</span>.</h2>
+
+<p>Happy Women's Day ❤️</p>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>Made with admiration by Rushabh</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
